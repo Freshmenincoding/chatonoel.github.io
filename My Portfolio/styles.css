@@ -1,0 +1,105 @@
+* { scroll-behavior: smooth;
+}
+body {
+ font-family:sans-serif;
+ background-color:black;
+ background-image: url('https://img.freepik.com/premium-vector/beautiful-sunset-with-mountains-watercolor-art-painting-illustration_858664-2571.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover
+}
+h1 {
+font-family: 'Recursive',monospace;
+text-align: right;
+font-size:2.8em;
+background-color:transparent;
+color:black;
+padding: 30px; 
+border:1px solid white;
+}
+p {    
+    color: #F0FFF0; 
+    line-height: 2.0; 
+    text-align: center;
+    padding: 150px;
+    font-size: 20px;
+    bottom: 50px;
+    font-family: 'Recursive',monospace;
+    bottom:-170px;
+
+
+}
+h2{
+ color: black;
+ text-align: center;
+ bottom:50px;
+ font-size:2.1em;
+ position: relative;
+  bottom: -20px;
+}
+.responsive-section {
+
+}
+div. image1>
+ padding: 100px;
+ margin: 0px;
+ float: left;s
+ margin-right: auto;
+ width: 50%;
+ border-radius:20%;
+ border: 2px solid white;
+
+
+}
+
+div.image1:hover {
+padding: 10px: 50px;
+dispaly: inline-block;
+margin: 5px;
+border: 5px solid #ccc;
+float: left;
+width: 20px
+}
+
+div.image1:hover {
+  border: 1px solid #777;
+}
+.responsive-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.image1 {
+width: 100%;
+height: auto;
+}
+div.desc {
+ padding: 15px;
+ text-align: center;
+ color: white;
+}
+
+.contact{
+padding: 10px 20px;
+border: 5px solid black;
+color: #black;
+transition: background-color 0.5s ease;
+font-weight: bold;
+height: 150px;
+
+  
+}
+.navbar a {
+ font-size:18px;
+ color:white;
+ text-decoration:none;
+ margin-left:35px;
+ transition:.3s;
+ position: relative;
+ bottom: -105px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+color:aqua;

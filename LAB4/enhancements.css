@@ -1,0 +1,49 @@
+:root {
+  --main-color: red;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color:black;
+}
+
+.hover-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: green;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+  background-color: yellow;
+}
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--main-color);
+  margin-top: 20px;
+  animation: rotateOpposite 1s infinite alternate;
+  text-align: center;
+}
+
+@keyframes rotateOpposite {
+  from {
+    transform: rotate(180deg);
+    background-color: blue;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: green;
+  }
+}
+
+.animation-box:nth-child(2) {
+  background-color: yellow;
+  animation-delay: 0.5s; /* Delay the second box animation by 0.5 seconds */
+}

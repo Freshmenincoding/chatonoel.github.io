@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>My Simple Portfolio Website </title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+<nav class="navbar">
+   
+       <a href= "#home">Home<a/>
+       <a href= "#about">About Me<a/>
+       <a href= "#contact">Contact<a/>
+       <a href= "#images">Images<a/>
+    </nav>
+    </header>
+<main>
+   
+<section id="home">
+  <h1>Simple Portfolio Website</h1>
+   <p>Hi, I'm Noel Chato jr. from BsInformationTechnology1-B
+     First year student in Surigao Del Norte State University
+      Student of Mr.Darwin Course HCI. This is my Simple Portfolio Website</p>
+</section> 
+
+
+<section id="about">
+<h2> About Me</h2>
+<p> Hello, Welcome to my simple website, I would like to introduce my self i am  Noel D. Chato jr. 
+ i live in Brgy. Himama-ug, Taganaan SDN i am BSICT student. I graduated in Taganaan National 
+high School in the track of ICT i am proud that i graduated to that school even its public but still learn a lot and now reaching my dream in Surigao del Norte State University.</p>
+ </section>
+
+<section id="images">
+  <section class="responsive-section">
+  <article>
+  <h2> Image Gallery</h2>
+  <p> Different kind of peaceful place </p>
+
+<div Class="image1">
+<a target="_blank" href="https://i.pinimg.com/736x/62/64/52/6264524fc3cf077891747a4f58848166.jpg">
+
+<img src="https://i.pinimg.com/736x/62/64/52/6264524fc3cf077891747a4f58848166.jpg" alt="peace" width="300"height="200">
+</a>
+<div class="desc">ForestPeace</div>
+ </div>
+
+<div Class="image1">
+<a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsv14tpsCoRIZG1t-eqvHj8xIO1qpGenAkOVRZ66uoUgv-tsIcRqSF7AMR-eYDD-bfGbc&usqp=CAU">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsv14tpsCoRIZG1t-eqvHj8xIO1qpGenAkOVRZ66uoUgv-tsIcRqSF7AMR-eYDD-bfGbc&usqp=CAU" alt="peace" width="300"height="200">
+</a>
+<div class="desc">ForestPeace</div>
+ </div>
+
+<div Class="image1">
+<a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR0asgm58T9twqzFvkJZYcOrm3Skg9q1-QM_l7IvyoxnE4KtPDpIcDr_UsRcYMSiF3iF4&usqp=CAU">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR0asgm58T9twqzFvkJZYcOrm3Skg9q1-QM_l7IvyoxnE4KtPDpIcDr_UsRcYMSiF3iF4&usqp=CAU" alt="peace" width="300"height="200">
+</a>
+<div class="desc">ForestPeace</div>
+ </div>
+</article>
+</section>
+</main>
+
+
+<section id="contact">
+
+<div class="contact">
+<h2>Contact Me</h2>
+<form action="#">
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="name" required>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required>
+ <label for="message">Message:</label>
+ <textarea id="message" name="message" required></textarea>
+ <button type="submit">Send</button>
+ </form>
+        </div>
+        <style> 
+        * { scroll-behavior: smooth;
+}
+body {
+ font-family:sans-serif;
+ background-color:black;
+ background-image: url('https://img.freepik.com/premium-vector/beautiful-sunset-with-mountains-watercolor-art-painting-illustration_858664-2571.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover
+}
+h1 {
+font-family: 'Recursive',monospace;
+text-align: right;
+font-size:2.8em;
+background-color:transparent;
+color:black;
+padding: 30px; 
+border:1px solid white;
+}
+p {    
+    color: #F0FFF0; 
+    line-height: 2.0; 
+    text-align: center;
+    padding: 150px;
+    font-size: 20px;
+    bottom: 50px;
+    font-family: 'Recursive',monospace;
+    bottom:-170px;
+
+
+}
+h2{
+ color: black;
+ text-align: center;
+ bottom:50px;
+ font-size:2.1em;
+ position: relative;
+  bottom: -20px;
+}
+.responsive-section {
+
+}
+div. image1>
+ padding: 100px;
+ margin: 0px;
+ float: left;s
+ margin-right: auto;
+ width: 50%;
+ border-radius:20%;
+ border: 2px solid white;
+
+
+}
+
+div.image1:hover {
+padding: 10px: 50px;
+dispaly: inline-block;
+margin: 5px;
+border: 5px solid #ccc;
+float: left;
+width: 20px
+}
+
+div.image1:hover {
+  border: 1px solid #777;
+}
+.responsive-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.image1 {
+width: 100%;
+height: auto;
+}
+div.desc {
+ padding: 15px;
+ text-align: center;
+ color: white;
+}
+
+.contact{
+padding: 10px 20px;
+border: 5px solid black;
+color: #black;
+transition: background-color 0.5s ease;
+font-weight: bold;
+height: 150px;
+
+  
+}
+.navbar a {
+ font-size:18px;
+ color:white;
+ text-decoration:none;
+ margin-left:35px;
+ transition:.3s;
+ position: relative;
+ bottom: -105px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+color:aqua;
+        </style>
+</body>
+</html>
+
+  <footer>
+	<p>NoelChato</p>
+</footer>

@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="styles.css">
+<!-- Flexbox Section -->
+<section class="flex-container">
+ <div class="flex-item">My Profile</div>
+ <div class="flex-item">About Us</div>
+ <div class="flex-item">Contact</div>
+</section>
+<!-- Grid Section -->
+<section class="grid-container">
+ <div class="grid-item">1</div>
+ <div class="grid-item">2</div>
+ <div class="grid-item">3</div>
+ <div class="grid-item">4</div>
+ <div class="grid-item">5</div>
+</section>
+<style> 
+/* Flexbox Experimentation */
+.flex-container {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: red;
+    outline-style: solid;
+    font-weiht: bold;
+   }
+   /* Flexbox items */
+   .flex-item {
+    background-color: seashell;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    outline-style: insert;
+    width: 1000px;
+    font-size: 20px;
+   }
+   /* Grid Layout Play */
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: row;
+    gap: 60px;
+    background-color: green;
+    padding: 50px;
+   }
+   /* Grid items */
+   .grid-item {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 30px;
+    outline-style: double;
+  
+   }
+   
+   @media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
